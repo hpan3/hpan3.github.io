@@ -123,7 +123,7 @@ li.expn {width: 40%;}
 		pointer-events: auto;
 	}
 
-	.modalDialog > .listContain .contactContain {
+	.modalDialog > .mapContain .listContain .contactContain {
 		width: 60%;
 		height: 75%;
 		position: absolute;
