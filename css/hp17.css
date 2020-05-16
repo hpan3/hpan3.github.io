@@ -137,7 +137,21 @@ li.expn {width: 40%;}
 		overflow: auto;
 	}
 
-        ifr {
+        map {
+                position: relative;
+                width: 60%;
+                margin-left: 25%;
+                margin-top: 10%;
+        }
+
+        mailchimp {
+                position: relative;
+                width: 60%;
+                margin-left: 25%;
+                margin-top: 10%;
+        }
+
+        email {
                 position: relative;
                 width: 60%;
                 margin-left: 25%;
