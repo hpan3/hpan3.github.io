@@ -108,7 +108,7 @@ li.expn {width: 40%;}
 		pointer-events: auto;
 	}
 
-	.modalDialog > .aboutContain, .experienceContain, .contactContain {
+	.modalDialog > .listContain .contactContain {
 		width: 60%;
 		height: 75%;
 		position: absolute;
@@ -178,12 +178,12 @@ a:active {color:#2F2412;}
 a img {border: none;}
 
 /* List */
-img.experience {
+img.list {
 	position: absolute;
 	clip: rect(0px,225px,225px,0px);
 	
 }
-img.experience:hover {opacity: 0.75; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s;}
+img.list:hover {opacity: 0.75; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s;}
 
 .projOvr {
 	position: absolute;
@@ -232,16 +232,6 @@ position: fixed;
 z-index: 99999999;
 opacity: 1;
 text-align: center;
-}
-
-/* City locations */
-.locations {
-margin-left: 30%;
-margin-right: 10%;
-bottom: 5%;
-position: fixed;
-z-index: 99999999;
-font-family: 'Hind', sans-serif; font-size: 3em; color:#fff;
 }
 
 /* Navigation */
