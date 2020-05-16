@@ -84,15 +84,15 @@ ul {list-style-type: none;}
 li {float: left; width: 30%; text-align: left;}
 li.expn {width: 40%;}
 
-/* Map */
+/* Summary */
 
-.leaf {
+.summary {
                 position: absolute;
                 font-family: Hind, sans-serif;
-                top: 0;
+                top: 30%;
                 right: 0; 
                 bottom: 0; 
-                left: 0;
+                left: 40%;
                 background: rgba(0,0,0,0.8);
 		z-index: 99999;
 		opacity:0;
