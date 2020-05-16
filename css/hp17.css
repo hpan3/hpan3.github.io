@@ -177,7 +177,7 @@ a:hover {color: #fff; opacity: 0.75; -webkit-transition: opacity 0.25s ease-in; 
 a:active {color:#2F2412;}
 a img {border: none;}
 
-/* Projects */
+/* List */
 img.experience {
 	position: absolute;
 	clip: rect(0px,225px,225px,0px);
