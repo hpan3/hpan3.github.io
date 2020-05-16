@@ -120,6 +120,13 @@ li.expn {width: 40%;}
 		overflow: auto;
 	}
 
+        ifr {
+                position: relative;
+                width: 60%;
+                margin-left: 25%;
+                margin-top: 10%;
+        }
+
 	::-webkit-scrollbar {
 		width: 0.5em;
 		background-color: #131313;
