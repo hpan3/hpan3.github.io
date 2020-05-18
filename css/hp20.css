@@ -18,6 +18,15 @@ html,body {
 	background-size: 100%; 
 }
 
+/* Descriptor */
+
+.header {
+        position:fixed;
+        width: 20%;
+        padding-top: 5%;
+        padding-left: 5%;
+}
+
 /* Fade In */
 
 @keyframes fadein {
