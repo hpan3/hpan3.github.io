@@ -83,7 +83,7 @@ a img {border: none;}
 
 a.content{text-decoration:none;}
 a.content:link{color:#333;}
-a.content:visited, a.content:hover{color:#333;text-decoration:underline;}
+a.content:visited, a.content:hover{color:#333;}
 
 a.more:link {color:#000;text-decoration: none;}
 a.more:hover {color:#000;text-decoration: none;}
