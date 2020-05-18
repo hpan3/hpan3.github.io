@@ -67,22 +67,6 @@ ul {list-style-type: none;}
 li {float: left; width: 30%; text-align: left;}
 li.expn {width: 40%;}
 
-/* Summary */
-
-.map {
-                position: absolute
-                font-family: Hind, sans-serif;
-                top: 30%;
-                right: 0; 
-                bottom: 0; 
-                left: 40%;
-                background: rgba(0,0,0,0.8);
-		z-index: 99999;
-		opacity:0;
-                width: 50%;
-                height: 100%;
-      }
-
 
 a.header:link {color:#000; text-decoration: none;}
 a.header:visited {color:#000; text-decoration: none;}
@@ -141,6 +125,22 @@ text-align: center;
 	width: 70%;
 	z-index: 99999999;
 }
+
+/* The map itself */
+
+.map {
+                position: relative;
+                font-family: Hind, sans-serif;
+                top: 30%;
+                right: 0; 
+                bottom: 0; 
+                left: 40%;
+                background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+                width: 50%;
+                height: 100%;
+      }
 
 /***********************************
 * MODAL BACKGROUND FOR MAILING LIST*
