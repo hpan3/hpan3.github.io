@@ -69,8 +69,8 @@ li.expn {width: 40%;}
 
 /* Summary */
 
-.summary {
-                position: relative;
+.map {
+                position: absolute
                 font-family: Hind, sans-serif;
                 top: 30%;
                 right: 0; 
