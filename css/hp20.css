@@ -69,7 +69,7 @@ h3 {font-family: "Hind"; font-size: 3em; color:#fff; /* 40px/16=2.5em */}
 h4 {font-family: "Hind"; font-size: 2.5em; color:#fff;/* Navigation */}
 h5 {font-family: "Hind", sans-serif; font-size: 1.75em; color:#fff;}
 h6 {font-family: "Hind",sans-serif;color:#000;}
-p {font-family: "Hind"; font-size: 1em; color:#fff;}
+p {align: left; font-family: "Hind"; font-size: 1em; color:#fff;}
 
 /* Navigation styles */
 ul {list-style-type: none;}
