@@ -194,19 +194,6 @@
 
 <table>
   <tr>
-    <td class="agency"> <!-- Turn Signals -->
-        <h5>
-          Turn Signals
-        </h5>
-    </td>
-    <td class="audio">
-     <audio controls loop autoplay width="100%" preload="none" tabindex="0">
-       <source src="audio/Turn Signals_mixdown-enhanced.mp3" />
-       <p>You're not using Chrome, are you?</p>
-     </audio>
-   </td>
- </tr>
-  <tr>
     <td class="agency"> <!-- 2008 Gillig LF Metro Transit 1100 series -->
         <h5>
           Metro Transit 2008 Gillig Diesel
@@ -350,7 +337,7 @@
     }
 
     //Build the img, then do a bit of maths to randomize load and append to a div. Add a touch off css to fade them badboys in all sexy like.
-        document.write('<img style="position:absolute; top: 0; left: 0;" height="100%" src="css/images/image' + getRandomInt(1, 50) + '.jpg">').appendTo('#interiors');
+        document.write('<img style="position:absolute; top: 0; left: 0;" height="100%" src="css/images/image' + getRandomInt(1, 50) + '.JPG">').appendTo('#interiors');
     </script>
     </div>
 
@@ -373,7 +360,14 @@
     </button>
     </a>
   </div>
- </div>
+  <br />
+ <div class="row justify-content-md-center" style="position:absolute; transform: scale(1); bottom:-7%; right:45%;">
+  <audio controls loop autoplay width="100%" preload="none" tabindex="0">
+    <source src="audio/Turn Signals_mixdown-enhanced.mp3" />
+    <p>You're not using Chrome, are you?</p>
+  </audio>
+</div>
+</div>
 </div>
 
 <!-- Modal: About Me -->
